@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+
+    <div id="div-form">
+        <h2>6. Um endocrinologista deseja acompanhar a saúde de seus pacientes utilizando o Índice de Massa Corporal (IMC), que é calculado pela fórmula IMC = peso / altura². Desenvolva um algoritmo que receba o nome, o peso e a altura de um paciente, calcule seu IMC e apresente o nome do paciente juntamente com sua faixa de risco. A classificação deve seguir os seguintes critérios: IMC abaixo de 20 indica "abaixo do peso"; de 20 até 25 indica "normal"; acima de 25 até 30 indica "excesso de peso"; acima de 30 até 35 indica "obesidade"; e acima de 35 indica "obesidade mórbida".</h2>
+        <hr>
+        <form id="caracteristicas">
+            <label for="altura">Sua Altura em CM</label>
+            <input type="number" name="altura" id="altura">
+
+            <label for="peso">Seu Peso em KG</label>
+            <input type="number" name="peso" id="peso">
+
+            <div id="buttons">
+                <button type="submit"> Confirmar</button>
+                <button type="reset"> Limpar</button>
+            </div>
+        </form>
+
+        <div id="div-resultado"></div>
+    </div>
+    <script src="q06.js"></script>
+</body>
+</html>
